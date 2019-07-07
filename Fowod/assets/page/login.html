@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fowod - Login</title>
+
+    <link rel="shortcut icon" href="../img/favicon logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+
+</head>
+<body style="overflow-x: hidden ">
+    <div class="wall-mobile">
+        <div class="overlay-login"></div>
+    </div>
+    <div class="login">
+        <div class="form-login p-4" id="loginku">
+            <div class="text-center">
+                <img class="d-inline-block" src="../img/favicon logo.png" width="100px" alt="">
+                <h1 class="d-inline-block f-judul position-relative" style="top: 30px;">Fowod</h1>
+                <p>Login</p>
+            </div>
+            <script>
+                    function validlogin() {
+                    var key = document.forms["login-form"]["key"].value;
+                    var pas = document.forms["login-form"]["password"].value;
+                    var btn_login = document.getElementById('submit-login');
+                        if(!(key == "user") && !(pas == "user")) {
+                            alert("Password dan Key tidak cocok ");
+                            return false;
+                            document.location.href = 'login.html';
+                        } else if (key == "" && pas == "") {
+                            alert("Password dan key tidak cocok ");
+                            return false;
+                            document.location.href = 'login.html';
+                        } else {
+                            document.location.href = 'afterLogin/user.html';
+                        }
+                    }
+                        
+                </script>
+            <div class="pt-4">
+                <div id="login-formulir">
+                <form action="afterLogin/user.html" method="post" name="login-form" onsubmit="validlogin()" autocomplete="off">
+                    <input type="text" name="key" id="key" class="input-login" required placeholder="your key" style="margin-bottom: 30px;">
+                    <input type="password" name="password" id="password" class="input-login" required placeholder="your password" style="margin-bottom: 10px;">
+                    <div class="cookie d-flex mb-4">
+
+                        <div class="cookie-input">
+                            <input style="position: relative; top: 1px" type="checkbox" name="remember" id="remember">
+                            <label class="pl-2" for="remember">Remember me</label>        
+                        </div>
+
+                        <a class="text-right position-relative forgot" href="">Forgot password ?</a>
+
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" id="submit-login" onclick="validlogin()" class="d-inline-block btn-login-page py-2 mb-2 px-5">Masuk</button>
+                    </div>
+                </form>
+                </div>
+                <hr>
+                <p class="text-center pt-2">Anda belum mempunyai akun ? <span class="btn-daftar" style="color: #0c5d72; cursor: pointer">Daftar</span></p>
+            </div>
+        </div>
+
+        <div class="form-login p-4" id="signup">
+                <div class="text-center">
+                    <img class="d-inline-block" src="../img/favicon logo.png" width="50px" alt="">
+                    <h2 class="d-inline-block f-judul position-relative" style="top: 20px;">Fowod</h2>
+                    <p>Sign Up</p>
+                </div>
+                <div class="pt-3">
+                    <div id="login-formulir">
+                    <form action="" method="post">
+                        <input type="text" name="username" id="username" class="input-login" required placeholder="Username" style="margin-bottom: 10px; margin-top: 10px;">
+                        <input type="key" name="key1" id="key1" class="input-login" required placeholder="your key" style="margin-bottom: 10px;">
+                        <input type="passowrd" name="passowrd1" id="passowrd1" class="input-login" required placeholder="your passowrd" style="margin-bottom: 10px;">
+                        <input type="password" name="password2" id="password2" class="input-login" required placeholder=" password" style="margin-bottom: 10px;">
+
+                        <div class="cookie d-flex mb-4">
+    
+
+                        </div>
+                        <div class="text-center">
+                            <button class="d-inline-block btn-login-page py-2 mb-2 px-5">Daftar</button>
+                        </div>
+                    </form>
+                    </div>
+                    <hr>
+                    <p class="text-center pt-2">Anda sudah mempunyai akun ? <span class="btn-masuk" style="color: #0c5d72; cursor: pointer">Masuk</span></p>
+                </div>
+            </div>
+        <div class="img-login">
+            <h3 class="capt-login">World is there to go forward, We work for world  </h3>
+
+            <div class="wall-login">
+                <img class="wall" src="../img/favicon logo.png" width="80%" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/fontawesome.js"></script>
+    <script src="../js/fontawesome.min.js"></script>
+    <script src="../js/vue.js"></script>
+    
+</body>
+</html>

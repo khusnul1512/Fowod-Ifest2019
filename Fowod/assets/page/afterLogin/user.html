@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fowod - User</title>
+
+    <link rel="shortcut icon" href="../../img/favicon logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/aos.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/slick-theme.css">
+    <link rel="stylesheet" href="../../css/slick.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/all.css">
+    <link rel="stylesheet" href="../../css/all.min.css">
+    <link rel="stylesheet" href="../../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../../css/fontawesome.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul class="nav-flex" style="list-style: none; width: 100%">
+                <li id="logo-nav">
+                   <a href="../../../index.html">
+                        <img src="../../img/favicon logo.png" width="50px" alt="">
+                        <span id="logo">FOWOD</span>
+                   </a>
+                </li>
+                <li id="menubar-nav">
+                    <ul class="nav-flex" style="list-style: none;">
+                        <li class="nav-search-toggle"><i class="fas fa-search btn-search"></i></li>
+                        <li class="link-nav"><a href="../../../index.html">Home</a></li>
+                        <li class="link-nav aktif"><a href="../control.html">Control</a></li>
+                        <li class="link-nav"><a href="../sale.html">Sale</a></li>
+                        <li class="btn-user">
+                            <div class="d-flex">
+                                <div class="icon-user-nav">
+                                    <img src="../../img/user.JPG" width="200%,  " alt="">
+                                </div>
+                                <p class="mx-3 mt-2" style="color: rgb(53, 53, 53) !important; font-size: 11px;">Ninno</p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <div id="toggle-nav">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="btn-search1">
+                    <i class="fas fa-search btn-search"></i>
+                </div>
+            </ul>
+            <div id="search">
+                <form action="" method="POST" autocomplete="off">
+                    <input type="text" name="keyword" id="keyword" placeholder="Cari sesuatu..">
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- user -->
+
+    <div class="container-fluit bg-light pt-5">
+        <div class="row py-5 mt-5">
+            <div class="col-md-5 px-3 py-3">
+                <div class="profil-user">
+                    <div class="sampul">
+                        <h4 class="output-username" id="output-username-judul">Ninno</h4>
+                        <img src="../../img/user.JPG" width="100%" style="opacity: 0.7" alt="">
+                    </div>
+                    <div class="foto-profil position-relative">
+                        <div class="icon position-absolute" style="top: -70px; left: 10px; border: 5px solid white">
+                            <img src="../../img/user.JPG" width="200%" alt="">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="about-this">
+                        <p id="mykey"><b>My Key</b> : 2OoTgaDO03 </p>
+                        <div class="row pt-2">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Nama</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <p id="output-nama">Mohammad Khusnul Khuluq</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Username</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <p id="output-username">Ninno</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Email</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <p id="output-email">khusnul20032002@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Phone</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <p id="output-phone">088217262025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons text-right mr-5">
+                            <button class="btn-ubah px-4 py-2 d-inline-block" id="btn-ubah">Ubah</button>
+                        </div>
+                    </div>    
+
+                    <div class="change-this">
+                        <p id="mykey"><b>My Key</b> : 2OoTgaDO03 </p>
+                        <div class="row pt-2">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Nama</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <input type="text" id="input-nama" required value="Mohammad Khusnul Khuluq">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Username</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <input type="text" id="input-username" required value="Ninno">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Email</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <input type="text" id="input-email" required value="khusnul20032002@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Phone</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <input type="text" id="input-phone" required value="088217262025">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <p class="ml-3" style="font-weight: bold;">Password</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="position-relative pb-1 mb-3 isi-data">
+                                <input type="password" id="input-phone" required value="inipassword">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons text-right mr-5">
+                            <button type="submit" class="btn-ubah px-4 py-2 d-inline-block" id="btn-simpan">Simpan</button>
+                        </div>
+                    </div>    
+
+                    
+                </div>
+            </div>
+            <div class="col-md-6 mt-3">
+                <div class="data-barang mr-2 pb-3">
+                    <div class="d-flex text-center">
+                        <div class="menu-user py-3 aktif-menu-user" id="monitoring">Monitoring</div>
+                        <div class="menu-user py-3" id="alatku">Alatku</div>
+                        <div class="menu-user py-3" id="control-btn">Control</div>
+                        <div class="menu-user py-3" id="geografis">Geografis</div>
+                    </div>
+                <div class="position-relative py-5" id="monitoring-content" style="width: 90%; left: 5%;">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="position-relative py-5" id="alatku-content" style="width: 90%; left: 5%;">  
+                    <canvas id="myChart-alat"></canvas>
+                </div>
+                <div class="position-relative py-5" id="control-content" style="width: 90%; left: 5%;">  
+                    <h3>Alatku</h3>
+                    <div class="alatku-user px-4 py-3 my-3" id="livelamp-alatku">Livelamp <button id="livelamp-btn" class="px-3 py-1"><span id="liveon-lamp">On</span><span id="liveoff-lamp">Off</span></button></div>
+                    <div class="alatku-user px-4 py-3 my-3" id="livedoor-alatku">Livedoor <button id="livedoor-btn" class="px-3 py-1 off"><span id="liveon-door">On</span><span id="liveoff-door">Off</span></button></div>
+                    <div class="alatku-user px-4 py-3 my-3" id="livewater-alatku">Livewater <button id="livewater-btn" class="px-3 py-1 bg-success">Beli</button></div>
+                </div>
+                <div class="position-relative py-4" id="geografis-content" style="width: 90%; left: 5%;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.20804101172!2d112.74608131477804!3d-7.7677499944017825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d3c663e7e67b%3A0x4ea808ba51708c66!2sSMK+Negeri+1+Purwosari!5e0!3m2!1sid!2sid!4v1562417341967!5m2!1sid!2sid" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- footer -->
+
+        <div class="footer py-5 px-3 text-white" style="background-color: #0b0b2a">
+            <div class="container-fluit">
+                <div class="row">
+                    <div class="col-lg-5 mb-4 px-4" style="border-right: 1px solid white">
+                        <h3 class="f-judul">Kodeberkah</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat, soluta repellendus dignissimos nemo doloremque.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6 px-4">
+                                <h3>Contact Us</h3>
+                                <div class="contact">
+                                    <div class="icon-foot">
+                                        <div class="contact-isi d-flex">
+                                            <i class="fab fa-facebook social ml-2"></i>
+                                            <p class="ml-2">Ninno</p>
+                                        </div>
+                                        <div class="contact-isi d-flex">
+                                            <i class="fab fa-whatsapp social ml-2"></i>
+                                            <p class="ml-2">0882-1726-2025</p>
+                                        </div>
+                                        <div class="contact-isi d-flex">
+                                            <i class="fab fa-instagram social ml-2"></i>
+                                            <p class="ml-2">@kodeberkah</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <h3>Footer Nav</h3>
+                                <div class="nav">
+                                    <ul style="list-style: none">
+                                        <li class="nav-bot py-2 my-1 px-5">Home</li>
+                                        <li class="nav-bot py-2 my-1 px-5">Control</li>
+                                        <li class="nav-bot py-2 my-1 px-5">Sale</li>
+                                        <li class="nav-bot py-2 my-1 px-5">Login</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- endfooter -->
+        <div class="container-fluit" style="background-color: #060618">
+            <div class="row">
+                <div class="col-12 text-white pt-3 text-center">
+                    <p>Designed by Kodeberkah 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/aos.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/slick.js"></script>
+    <script src="../../js/slick.min.js"></script>
+    <script src="../../js/script.js"></script>
+    <script src="../../js/all.js"></script>
+    <script src="../../js/all.min.js"></script>
+    <script src="../../js/fontawesome.js"></script>
+    <script src="../../js/fontawesome.min.js"></script>
+    <script src="../../js/search.js"></script>
+    <script src="../../js/vue.js"></script>
+    <script src="../../js/Chart.js"></script>
+    <script src="../../js/user.js"></script>
+    
+</body>
+</html>

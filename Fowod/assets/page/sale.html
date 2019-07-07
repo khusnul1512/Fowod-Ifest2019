@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fowod - Sale</title>
+
+    <link rel="shortcut icon" href="../img/favicon logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav class="shadow">
+            <ul class="nav-flex" style="list-style: none; width: 100%">
+                <li id="logo-nav">
+                   <a href="../../index.html">
+                        <img src="../img/favicon logo.png" width="50px" alt="">
+                        <span id="logo">FOWOD</span>
+                   </a>
+                </li>
+                <li id="menubar-nav">
+                    <ul class="nav-flex" style="list-style: none;">
+                        <li class="nav-search-toggle"><i class="fas fa-search btn-search"></i></li>
+                        <li class="link-nav"><a href="../../index.html">Home</a></li>
+                        <li class="link-nav"><a href="control.html">Control</a></li>
+                        <li class="link-nav aktif"><a href="sale.html">Sale</a></li>
+                        <li class="btn-login"><a class="loginnav" href="login.html">Login</a></li>
+                    </ul>
+                </li>
+                <div id="toggle-nav">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="btn-search1">
+                    <i class="fas fa-search btn-search"></i>
+                </div>
+            </ul>
+            <div id="search">
+                <form action="" method="POST" autocomplete="off">
+                    <input type="text" name="keyword" id="keyword" placeholder="Cari sesuatu..">
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    
+    <!-- sale -->
+
+    <div class="position-relative" style="width: 100%; overflow: hidden">
+
+    <div class="rows-sale text-white">
+        <a class="icon-point" href="#content-livelamp">
+            <div class="rows-icon">
+                <div class="sale-icon" id="icon-livelamp">
+                    <img src="../img/livel.png" width="200%" alt="">
+                </div>
+                <h4 class="name-icon-sale" id="name-livelamp">LiveLamp</h4>
+            </div>
+        </a>
+        <a class="icon-point" href="#content-livedoor">
+            <div class="rows-icon">
+                <div class="sale-icon" id="icon-livedoor">
+                    <img src="../img/livedoor.png" width="200%" alt="">
+                </div>
+                <h4 class="name-icon-sale" id="name-livedoor">LiveDoor</h4>
+            </div>
+        </a>
+        <a class="icon-point" href="#content-livewater">
+        <div class="rows-icon">
+            <div class="sale-icon" id="icon-livewater">
+                <img src="../img/livewater copy.png" width="200%" alt="">
+            </div>
+            <h4 class="name-icon-sale" id="name-livewater">LiveWater</h4>
+        </div>
+        </a>
+    </div>
+    <div class="container-fluit py-5 text-white" id="content-livelamp" style="background-color: #3535a3;">
+        <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-7 text-center pt-5 mt-5">
+                <img class="d-inline-block" src="../img/livel.png" width="80%" alt="">
+            </div>
+            <div class="col-lg-5 mb-5 pl-5">
+                <div class="des-sale-page">
+                    <h2>LiveLamp</h2>
+                    <p class="position-relative px-4 mt-3" id="livelamp-sale">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum officiis fugiat nesciunt quidem saepe quis, natus incidunt praesentium quod.</p>
+                    <h3>Rp 650.000,-</h3>
+                    <div class="d-flex">
+                        <input type="number" name="" id="" value="1">
+                        <button class="btn btn-sale px-5 mb-5 mt-3 ml-3" data-toggle="modal" data-target="#myModal">Beli</button>
+                    </div>
+                      <!-- The Modal -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog" style="top: 20%">
+        <div class="modal-dialog">
+            
+           <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Pilih Jenis Transaksi</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At odio necessitatibus velit quam animi amet iste consectetur maxime earum, officia harum, cupiditate, officiis consequuntur recusandae soluta odit ipsa nesciunt sequi!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container-fluit py-5" id="content-livedoor" style="background-color: #ffd700">
+        <div class="container py-5">
+        <div class="row pb-5">
+            <div class="col-lg-5 text-right">
+                <div class="des-sale-page">
+                    <h2>LiveDoor</h2>
+                    <p class="position-relative px-4" id="livedoor-sale">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum officiis fugiat nesciunt quidem saepe quis, natus incidunt praesentium quod.</p>
+                    <h3>Rp 750.000,-</h3>
+                    <div class="d-inline-block">
+                        <input type="number" style="top: 10px;" name="" id="" value="1">
+                        <button class="btn btn-success ml-3 px-5 mt-3" data-toggle="modal" data-target="#myModal">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center pt-4">
+                <img class="d-inline-block" src="../img/livedoor.png" width="100%" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container-fluit pb-5 py-5 text-white" id="content-livewater" style="background-color: green;">
+        <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-7 text-center">
+                <img class="d-inline-block" src="../img/livewater copy.png" width="100%" alt="">
+            </div>
+            <div class="col-lg-5 pb-5 mb-5 pl-5">
+                <div class="des-sale-page p-3">
+                    <h2>LiveWater</h2>
+                    <p class="position-relative px-4 mt-3" id="livelamp-sale">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum officiis fugiat nesciunt quidem saepe quis, natus incidunt praesentium quod.</p>
+                    <h3>Rp 650.000,-</h3>
+                    <div class="d-flex">
+                        <input type="number" name="" id="" value="1">
+                        <button class="btn btn-sale ml-3 px-5 mt-3" data-toggle="modal" data-target="#myModal">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- /.sale -->
+
+    <!-- footer -->
+
+        <div class="footer py-5 px-3 text-white" style="background-color: #0b0b2a">
+            <div class="container-fluit">
+                <div class="row">
+                    <div class="col-lg-5 mb-4 px-4" style="border-right: 1px solid white">
+                        <h3 class="f-judul">Kodeberkah</h3>
+                        <p>Lor\em ipsum dolor sit amet consectetur adipisicing elit. Illum placeat, soluta repellendus dignissimos nemo doloremque.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6 px-4">
+                                <h3>Contact Us</h3>
+                                <div class="contact">
+                                    <div class="icon-foot">
+                                        <!-- <div class="icon-img">
+                                            <img src="../img/pp.jpg" width="100%" alt="">
+                                        </div> -->
+                                        <div class="contact-isi d-flex">
+                                            <i class="fab fa-facebook social ml-2"></i>
+                                            <p class="ml-2">Ninno</p>
+                                        </div>
+                                        <div class="contact-isi d-flex">
+                                            <i class="fab fa-whatsapp social ml-2"></i>
+                                            <p class="ml-2">0882-1726-2025</p>
+                                        </div>
+                                        <div class="contact-isi d-flex">
+                                            <i class="fab fa-instagram social ml-2"></i>
+                                            <p class="ml-2">@kodeberkah</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <h3>Footer Nav</h3>
+                                <div class="nav">
+                                    <ul style="list-style: none">
+                                        <li class="nav-bot py-2 my-1 px-5">Home</li>
+                                        <li class="nav-bot py-2 my-1 px-5">Control</li>
+                                        <li class="nav-bot py-2 my-1 px-5">Sale</li>
+                                        <li class="nav-bot py-2 my-1 px-5">Login</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- endfooter -->
+        <div class="container-fluit" style="background-color: #060618">
+            <div class="row">
+                <div class="col-12 text-white pt-3 text-center">
+                    <p>Designed by Kodeberkah 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/fontawesome.js"></script>
+    <script src="../js/fontawesome.min.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/vue.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() < $('#content-livedoor').innerHeight() - 200) {
+                    $('#icon-livelamp').addClass('aktif-sale');
+                    $('#icon-livedoor').removeClass('aktif-sale');
+                    $('#icon-livewater').removeClass('aktif-sale');
+                    $('#name-livelamp').addClass('aktif-name-icon');
+                    $('#name-livedoor').removeClass('aktif-name-icon');
+                    $('#name-livewater').removeClass('aktif-name-icon');
+                }
+                if( ($(this).scrollTop()) > ($('#content-livedoor').innerHeight() - 200)) {
+                    $('#icon-livedoor').addClass('aktif-sale');
+                    $('#icon-livelamp').removeClass('aktif-sale');
+                    $('#icon-livewater').removeClass('aktif-sale');
+                    $('#name-livelamp').removeClass('aktif-name-icon');
+                    $('#name-livedoor').addClass('aktif-name-icon');
+                    $('#name-livewater').removeClass('aktif-name-icon');
+                }
+                if( ($(this).scrollTop()) > ($('#content-livewater').innerHeight())) {
+                    $('#icon-livedoor').removeClass('aktif-sale');
+                    $('#icon-livelamp').removeClass('aktif-sale');
+                    $('#icon-livewater').addClass('aktif-sale');
+                    $('#name-livelamp').removeClass('aktif-name-icon');
+                    $('#name-livedoor').removeClass('aktif-name-icon');
+                    $('#name-livewater').addClass('aktif-name-icon');
+                }
+            }); 
+        });
+        $('.icon-point').on('click', function() {
+            if(this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
+</body>
+</html>
